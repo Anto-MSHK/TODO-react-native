@@ -6,6 +6,8 @@ type HeaderT = {
 }
 
 export const Header: FC<HeaderT> = ({ nameTitle }) => {
+
+	// useFontsCustom()
 	return (
 		<View style={styles.container}>
 			<Text style={styles.text}>{nameTitle}</Text>
@@ -15,12 +17,14 @@ export const Header: FC<HeaderT> = ({ nameTitle }) => {
 
 const styles = StyleSheet.create({
 	container: {
-		height: 80,
-		backgroundColor: '#61dafb',
+		height: 90,
+		// backgroundColor: '#61dafb',
 
 	},
 	text: {
-		fontSize: 30,
+		fontSize: 20,
+		marginTop: 40,
+		fontFamily: 'Bold',
 		textAlign: 'center',
 	}
 })

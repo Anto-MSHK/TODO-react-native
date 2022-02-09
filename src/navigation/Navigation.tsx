@@ -11,8 +11,8 @@ export const Navigation: FC = () => {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
-				<Stack.Screen name='taskManager' component={TaskManager} />
-				<Stack.Screen name='taskEdit' component={TaskEdit} />
+				<Stack.Screen name='TaskManager' component={TaskManager} />
+				<Stack.Screen name='TaskEdit' component={TaskEdit} />
 			</Stack.Navigator>
 		</NavigationContainer>
 	)
